@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator</title>
+        <!-- custom css link -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="section-main">
+            <div class="calc-container">
+                <div class="display">
+                    <h1 class="ouput-text"></h1>
+                </div>
+                <div class="numpad">
+                    <button class="btn" onclick="cls('C')">C</button>
+                    <button class="btn" onclick="cls('')">AC</button>
+                    <button class="btn" onclick="display('%')">%</button>
+                    <button class="btn" onclick="display('÷')">÷</button>
+                    <button class="btn" onclick="display('7')">7</button>
+                    <button class="btn" onclick="display('8')">8</button>
+                    <button class="btn" onclick="display('9')">9</button>
+                    <button class="btn" onclick="display('X')">X</button>
+                    <button class="btn" onclick="display('4')">4</button>
+                    <button class="btn" onclick="display('5')">5</button>
+                    <button class="btn" onclick="display('6')">6</button>
+                    <button class="btn" onclick="display('-')">-</button>
+                    <button class="btn" onclick="display('1')">1</button>
+                    <button class="btn" onclick="display('2')">2</button>
+                    <button class="btn" onclick="display('3')">3</button>
+                    <button class="btn" onclick="display('+')">+</button>
+                    <button class="btn" onclick="display('0')">0</button>
+                    <button class="btn" onclick="display('.')">.</button>
+                    <button class="btn assign" onclick="calculate()">=</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <!-- custom js link -->
+    <script src="script.js"></script>
+</html>
