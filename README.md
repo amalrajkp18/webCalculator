@@ -26,6 +26,7 @@ You can try out the Calculator by visiting the live demo here: [Simple Calculato
 
    ```
    git clone https://github.com/your-username/calculator.git
+   ```
 
 1. Open the `index.html` file in your web browser.
 2. Interact with the keyboard:
