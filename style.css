@@ -78,3 +78,29 @@ body {
 .assign:hover {
     background-color: #ed5c49;
 }
+
+@media only screen and (max-width: 650px){
+    .calc-container{
+        width: 85%;
+        height: 75%;
+        padding: 3%;
+    }
+}
+@media only screen and (max-height: 450px){
+    .calc-container{
+        width: 90%;
+        height: 90%;
+        gap: 4%;
+    }
+    .ouput-text {
+        font-size: 1.6rem;
+    }
+    .numpad{
+        grid-template-columns: repeat(5,1fr);
+        grid-gap: 3%;
+
+    }
+    .btn{
+        font-size: 1rem;
+    }
+}
